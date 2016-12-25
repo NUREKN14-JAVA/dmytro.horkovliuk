@@ -4,16 +4,15 @@ import main.java.com.nure.gorkovlyuk.User;
 
 import java.util.Collection;
 
-public interface UserDAO {
+    public interface UserDao {
+        User create(User user) throws DatabaseException;
 
-    User create(User user) throws DatabaseException;
+        void update(User user) throws DatabaseException;
 
-    void update(User user) throws DatabaseException;
+        void delete(User user) throws DatabaseException;
 
-    void delete(User user) throws DatabaseException;
+        User find(Long id) throws DatabaseException;
 
-    User find(Long id) throws DatabaseException;
-
-    Collection<?> findAll() throws DatabaseException;
+        Collection findAll() throws DatabaseException;
 }
 

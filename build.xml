@@ -5,28 +5,29 @@
     <property name="build-dir" value="${basedir}/bin"/>
 
     <target name="clean">
-        <delete dir="${build-dir}"/>
+        <delete dir = "${build-dir}"/>
     </target>
 
     <target name="init">
         <mkdir dir="${build-dir}"/>
     </target>
 
-    <target name="compile" depends="init">
-        <javac srcdir="${main-java-dir}" destdir="${build-dir}"/>
+    <target name="compile" depends = "init">
+        <javac srcdir = "${main-java-dir}" destdir = "${build-dir}"/>
     </target>
+
 
     <target name="test-compile">
-        <javac srcdir="${test-java-dir}" destdir="${build-dir}"/>
+        <javac srcdir = "${test-java-dir}" destdir = "${build-dir}"/>
     </target>
 
-    <target name="test" depends="test-compile">
+    <target name="test" depends = "test-compile">
         <junit>
-            <classpath> <pathelement location="${build-dir}"/>
+            <classpath>
+                <pathelement location="${build-dir}"/>
             </classpath>
-            <formatter type="plain"/>
-            <test name="com.nure.gorkovlyuk.UserTest">
-            </test>
+            <formatter type = "plain"/>
+            <test name = "com.nure.gorkovlyuk.UserTest"></test>
         </junit>
     </target>
 </project>
