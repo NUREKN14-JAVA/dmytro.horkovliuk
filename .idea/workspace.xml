@@ -2,25 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d058783-60ad-477d-b55c-58a2cacd8f02" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/nixsolutions/UserTest.java" />
-      <change type="DELETED" beforePath="E:\JAVAGREBENNYUK\dmytro.horkovliuk\out\production\dmytro.horkovliuk\main\java\com\nure\gorkovlyuk\User.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAGREBENNYUK\dmytro.horkovliuk\out\production\dmytro.horkovliuk\main\java\com\nure\gorkovlyuk\db\ConnectionFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAGREBENNYUK\dmytro.horkovliuk\out\production\dmytro.horkovliuk\main\java\com\nure\gorkovlyuk\db\ConnectionFactoryImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAGREBENNYUK\dmytro.horkovliuk\out\production\dmytro.horkovliuk\main\java\com\nure\gorkovlyuk\db\DatabaseException.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAGREBENNYUK\dmytro.horkovliuk\out\production\dmytro.horkovliuk\main\java\com\nure\gorkovlyuk\db\HsqldbUserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAGREBENNYUK\dmytro.horkovliuk\out\production\dmytro.horkovliuk\main\java\com\nure\gorkovlyuk\db\UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAGREBENNYUK\dmytro.horkovliuk\out\production\dmytro.horkovliuk\test\java\com\nure\gorkovlyuk\UserTest.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAGREBENNYUK\dmytro.horkovliuk\out\production\dmytro.horkovliuk\test\java\com\nure\gorkovlyuk\db\HsqldbUserDaoTest.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAGREBENNYUK\dmytro.horkovliuk\src\main\java\com\nure\gorkovlyuk\User.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAGREBENNYUK\dmytro.horkovliuk\src\main\java\com\nure\gorkovlyuk\db\ConnectionFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAGREBENNYUK\dmytro.horkovliuk\src\main\java\com\nure\gorkovlyuk\db\ConnectionFactoryImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAGREBENNYUK\dmytro.horkovliuk\src\main\java\com\nure\gorkovlyuk\db\DatabaseException.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAGREBENNYUK\dmytro.horkovliuk\src\main\java\com\nure\gorkovlyuk\db\HsqldbUserDao.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAGREBENNYUK\dmytro.horkovliuk\src\main\java\com\nure\gorkovlyuk\db\UserDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAGREBENNYUK\dmytro.horkovliuk\src\test\java\com\nure\gorkovlyuk\UserTest.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\JAVAGREBENNYUK\dmytro.horkovliuk\src\test\java\com\nure\gorkovlyuk\db\HsqldbUserDaoTest.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/usermanagement.lck" afterPath="$PROJECT_DIR$/db/usermanagement.lck" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/usermanagement.properties" afterPath="$PROJECT_DIR$/db/usermanagement.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dmytro.horkovliuk.iws" />
@@ -55,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DaoFactory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DaoFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nixsolutions/usermanagement/db/DaoFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.56216216">
+            <state vertical-scroll-proportion="0.0">
               <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -91,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HsqldbUserDao.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HsqldbUserDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nixsolutions/usermanagement/db/HsqldbUserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-2.7216215">
               <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -324,6 +305,58 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dmytro.horkovliuk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dmytro.horkovliuk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usermanagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dmytro.horkovliuk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dmytro.horkovliuk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usermanagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -818,16 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nixsolutions/usermanagement/db/HsqldbUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nixsolutions/usermanagement/db/DatabaseException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -868,12 +891,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nixsolutions/usermanagement/db/DaoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.56216216">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#383#384#0" expanded="true" />
             <element signature="e#414#415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nixsolutions/usermanagement/db/HsqldbUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7216215">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
