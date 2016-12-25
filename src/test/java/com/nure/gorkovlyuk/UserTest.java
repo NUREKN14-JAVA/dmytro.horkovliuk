@@ -6,12 +6,15 @@ import main.java.com.nure.gorkovlyuk.User;
 import org.junit.Before;
 import org.junit.Test;
 
+
 import java.util.Calendar;
 import java.util.Date;
 
 /**
  * Created by Dmitry on 10.10.2016.
  */
+
+
 public class UserTest extends TestCase {
 
     private User user;
