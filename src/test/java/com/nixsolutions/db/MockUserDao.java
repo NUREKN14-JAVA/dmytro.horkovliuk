@@ -1,17 +1,16 @@
 package test.java.com.nixsolutions.db;
 
-import main.java.com.nixsolutions.usermanagement.User;
-import main.java.com.nixsolutions.usermanagement.db.ConnectionFactory;
-import main.java.com.nixsolutions.usermanagement.db.DatabaseException;
-import main.java.com.nixsolutions.usermanagement.db.UserDao;
-
 import java.util.Collection;
 import java.util.Map;
 import java.util.HashMap;
 
+import com.nixsolutions.usermanagement.User;
+import main.java.com.nixsolutions.usermanagement.db.ConnectionFactory;
+import main.java.com.nixsolutions.usermanagement.db.DatabaseException;
+import main.java.com.nixsolutions.usermanagement.db.UserDao;
 
 public class MockUserDao implements UserDao {
-	private long id = 0;
+    private long id = 0;
     private Map users = new HashMap();
 
     public User create(User user) throws DatabaseException {
@@ -33,7 +32,7 @@ public class MockUserDao implements UserDao {
     }
 
     public User find(Long id) throws DatabaseException {
-        
+
         return (User) users.get(id);
     }
 
@@ -41,10 +40,15 @@ public class MockUserDao implements UserDao {
         return users.values();
     }
 
-	@Override
-	public void setConnectionFactory(ConnectionFactory connectionFactory) {
-		// TODO Auto-generated method stub
+    @Override
+    public void setConnectionFactory(ConnectionFactory connectionFactory) {
+        // TODO Auto-generated method stub
 
-	}
+    }
+
+    @Override
+    public Collection find(String firstName, String lastName) throws DatabaseException {
+        throw new UnsupportedOperationException();
+    }
 
 }
