@@ -8,7 +8,24 @@ public class User {
     private Long id;
     private String firstName;
     private String lastName;
-    private Date dateOfBirthd;
+    private Date dateOfBirth;
+
+    public User(String firstName, String LastName, Date date){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.dateOfBirth = date;
+    }
+
+    public User(Long id, String firstName, String LastName, Date date){
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.dateOfBirth = date;
+    }
+
+    public User() {
+        // TODO Auto-generated constructor stub
+    }
 
     public Long getId() {
         return id;
@@ -34,29 +51,43 @@ public class User {
         this.lastName = lastName;
     }
 
-    public Date getDateOfBirthd() {
-        return dateOfBirthd;
+    public Date getDateOfBirth() {
+        return dateOfBirth;
     }
 
-    public void setDateOfBirthd(Date dateOfBirthd) {
-        this.dateOfBirthd = dateOfBirthd;
+    public void setDateOfBirth(Date dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
     }
 
     public Object getFullName() {
-        return getLastName() + ", " + getFirstName();
+        return getLastName() + ", "+ getFirstName();
     }
 
     public int getAge() {
-
         Calendar calendar = Calendar.getInstance();
-
         calendar.setTime(new Date());
         int currentYear = calendar.get(Calendar.YEAR);
-
-        calendar.setTime(getDateOfBirthd());
+        calendar.setTime(getDateOfBirth());
         int year = calendar.get(Calendar.YEAR);
+        return currentYear-year;
+    }
 
-        return currentYear - year;
-
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (this == obj) {
+            return true;
+        }
+        if (this.getId() == null && ((User) obj).getId() == null) {
+            return true;
+        }
+        return this.getId().equals(((User) obj).getId());
+    }
+    public int hashCode() {
+        if (this.getId() == null) {
+            return 0;
+        }
+        return this.getId().hashCode();
     }
 }

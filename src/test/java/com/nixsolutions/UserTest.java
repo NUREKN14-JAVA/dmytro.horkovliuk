@@ -12,6 +12,7 @@ import org.junit.Test;
 
 public class UserTest {
 
+
     private User user;
     private Date dateOfBirth;
 
@@ -33,7 +34,7 @@ public class UserTest {
 
     @Test
     public void testGetAge(){
-        user.setDateOfBirthd(dateOfBirth);
+        user.setDateOfBirth(dateOfBirth);
         assertEquals(2016-1984, user.getAge());
     }
 
